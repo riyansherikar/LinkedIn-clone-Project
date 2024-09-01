@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="logo.png"></a>
+        <div class="search-box">
+            <img src="search.png" alt="">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="home.png" alt=""><span>Home</span></a></li>
+            <li><a href="#"><img src="network.png" alt=""><span>My Network</span></a></li>
+            <li><a href="#"><img src="jobs.png" alt=""><span>Jobs</span></a></li>
+            <li><a href="#"><img src="message.png" alt=""><span>Messaging</span></a></li>
+            <li><a href="#"><img src="notification.png" alt=""><span>Notification</span></a></li>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <div class="online">
+        </div>
+        <img src="user-1.png" alt="" class="nav-profile-img" onclick="toggleMenu()">
+    </div>
+
+<!-- --------profile dropdown menu-------- -->
+
+    <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="user-1.png">
+                <div>
+                    <h3>Rayan Walton</h3>
+                    <a href="profile.html">See Your Profile</a>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="profile-menu-link">
+                <img src="feedback.png" alt="">
+                <p>Give Feedback</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="setting.png" alt="">
+                <p>Setting & Privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="help.png" alt="">
+                <p>Help & Support</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="display.png" alt="">
+                <p>Display & Accessibility</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="logout.png" alt="">
+                <p>Log Out</p>
+                <span>></span>
+            </a>
+        </div>
+    </div>
+</nav>
+<!-- -----navbar close----- -->
+<div class="container">
+    <div class="profile-main">
+        <div class="profile-container">
+            <img src="cover-pic.png" width="100%">
+            <div class="profile-container-inner">
+                <img src="user-1.png" class="profile-pic">
+                <h1>Rayan Walton</h1>
+                <b>Web Developer at Microsoft | Forever developer at DataStack \
+                    and intern at Orale
+                </b>
+                <p>New York, United States &middot; <a href="#">Contact Info</a></p>
+                <div class="mutual-connection">
+                    <img src="user-2.png">
+                    <span>1 mutual connection: Orlando diggs</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primary-btn"><img src="connect.png" alt="">Connect</a>
+                    <a href="#"><img src="chat.png" alt="">Message</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="profile-discription">
+            <h2>About</h2>
+            <p>The success of every website depends on search engine
+                optimiztion and digital marketing stretegy. If you are on first page of all major search engines 
+                then you are ahead among your competitors</p>
+                <a href="#" class="see-more-link">See More</a>
+        </div>
+
+        <div class="profile-discription">
+            <h2>Experience</h2>
+            <div class="profile-desc-row">
+                <img src="microsoft.png" alt="">
+                <div>
+                    <h3>Lead Front-End Developer</h3>
+                    <b>Microsoft full-Time</b>
+                    <b>feb 2021 - Present &middot; 1.5 years</b>
+                    <p>Computer pogramming is the process of performing a 
+                        particular computation, usually by designning and building
+                        an executable computer program.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="slack.png" alt="">
+                <div>
+                    <h3>Full Stack Developer</h3>
+                    <b>Slack &middot; full-Time</b>
+                    <b>june 2018 - jan 2021 &middot; 2.6 years</b>
+                    <p>Computer pogramming is the process of performing a 
+                        particular computation, usually by designning and building
+                        an executable computer program.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="google.png" alt="">
+                <div>
+                    <h3>Web Developer</h3>
+                    <b>Google Inc. &middot; full-time</b>
+                    <b>sep 2015 - may 2018 &middot; 2.8 years</b>
+                    <p>Computer pogramming is the process of performing a 
+                        particular computation, usually by designning and building
+                        an executable computer program.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="experiance-link">Show all 7 Ecperiences <img src="right-arrow.png"></a>
+        </div>
+
+        <div class="profile-discription">
+            <h2>Education</h2>
+            <div class="profile-disc-row">
+                <img src="stanford.png" alt="">
+                <div>
+                    <h3>Stanford University</h3>
+                    <b>BSEE, Electical Engineering</b>
+                    <b>2018 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-disc-row">
+                <img src="north.png" alt="">
+                <div>
+                    <h3>Northwestern University</h3>
+                    <b>Computer Science</b>
+                    <b>2015 - 2018</b>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-disc-row">
+                <img src="mit.png" alt="">
+                <div>
+                    <h3>Hardvard University</h3>
+                    <b>Senior High School</b>
+                    <b>2005 - 2015</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-discription">
+            <h2>Skills</h2>
+            <a href="#" class="skill-btn">Leadership</a>
+            <a href="#" class="skill-btn">Web Design</a>
+            <a href="#" class="skill-btn">Developement</a>
+            <a href="#" class="skill-btn">Communication</a>
+            <a href="#" class="skill-btn">UI/UX</a>
+            <a href="#" class="skill-btn">Planning</a>
+            <a href="#" class="skill-btn">Coding</a>
+            <a href="#" class="skill-btn">Python</a>
+        </div>
+    </div>
+
+    <!-- --------profile sidebar-------- -->
+    <div class="profile-sidebar">
+
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Master the 5 principle of Web design</p>
+            <div>
+                <img src="user-1.png">
+                <img src="mi-logo.png">
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+
+        <div class="sidebar-people">
+            <h3>People You May Know</h3>
+            <div class="sidebar-people-row">
+                <img src="user-3.png" alt="">
+                <div>
+                    <h2>Samuel Tony</h2>
+                    <p>Head of Marketting at Alibaba</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+
+            <div class="sidebar-people-row">
+                <img src="user-4.png" alt="">
+                <div>
+                    <h2>Bengamin Leo</h2>
+                    <p>Head of Marketting at Alibaba</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+
+            <div class="sidebar-people-row">
+                <img src="user-5.png" alt="">
+                <div>
+                    <h2>Steave Greg</h2>
+                    <p>Head of Marketting at Alibaba</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+
+            <div class="sidebar-people-row">
+                <img src="user-2.png" alt="">
+                <div>
+                    <h2>Martin Levis</h2>
+                    <p>Head of Marketting at Alibaba</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+
+            <div class="sidebar-people-row">
+                <img src="user-1.png" alt="">
+                <div>
+                    <h2>Clarence George</h2>
+                    <p>Head of Marketting at Alibaba</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="profile-footer">
+    <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+            <img src="logo.png">
+            <p>Linkedin &#169; 2022. All right reserved</p>
+        </div>
+    </div>
+</div>
+
+ <script>
+    
+    let profileMenu = document.getElementById("profileMenu");
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+    }
+ </script>
+</body>
+</html>
